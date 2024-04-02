@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "TabsCache",
+  "version": "1.0",
+
+  "description": "Manage your tabs",
+
+  "content_scripts": [
+    {
+      "matches": ["*"],
+      "js": ["index.js"]
+    }
+  ]
+}
+
