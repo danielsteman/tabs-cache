@@ -2,14 +2,19 @@
   "manifest_version": 2,
   "name": "TabsCache",
   "version": "1.0",
-
   "description": "Manage your tabs",
-
+  "homepage_url": "https://danielsteman.com",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
   "content_scripts": [
     {
-      "matches": ["*"],
-      "js": ["index.js"]
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "src/index.js"
+      ]
     }
   ]
 }
-
