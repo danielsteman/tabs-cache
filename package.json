@@ -1,8 +1,11 @@
 {
   "scripts": {
-      "dev": "tsc -w"
+    "dev": "tsc -w"
   },
   "devDependencies": {
     "ts-node-dev": "^2.0.0"
+  },
+  "dependencies": {
+    "webextension-polyfill-ts": "^0.26.0"
   }
 }
